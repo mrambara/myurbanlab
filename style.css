@@ -11,6 +11,7 @@ nav{
 	display: flex;
 	position: fixed;
 	top: 0px;
+	box-shadow: 0 0px 5px 0;
 }
 
 #Logo{
@@ -20,7 +21,7 @@ nav{
 	color: white;
 	justify-content: center;
 	align-items: center;
-	font-size : 1.5em;
+	font-size : 1.3em;
 }
 
 #navbar{
@@ -31,13 +32,13 @@ nav{
 	color: white
 }
 
-#navbar a{
+nav a{
 	color: white;
 	text-decoration: none;
 	font-size : 1.1em;
 }
 
-#navbar a:hover{
+nav a:hover{
 	color: goldenrod;
 }
 
@@ -89,13 +90,21 @@ nav{
 	margin-left:10px;
 }
 
-#content{
+.content{
 	display: flex;
+	flex-direction: column;
+	text-align: center;
 	background-color: white;
 	margin: 7vw 10% 0% 10%;
 }
-
-#first{
+.content p{
+	padding: 0% 10%;
+	line-height: 1.5em;
+}
+#t{
+	text-align: left;
+}
+.first{
 	width: 100%;
 	height: 40vw;
 	display: inline-flex;
@@ -162,6 +171,10 @@ h1{
     width: 25%;
 }
 
+.card2 {
+    width: 40%;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -199,4 +212,10 @@ footer{
 	width: 100%;
 	height : 25vw;
 	background-color: black;
+}
+
+.leader{
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-around;
 }
