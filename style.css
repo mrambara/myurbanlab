@@ -32,13 +32,13 @@ nav{
 	color: white
 }
 
-nav a{
+nav a, .foot2 a{
 	color: white;
 	text-decoration: none;
 	font-size : 1.1em;
 }
 
-nav a:hover{
+nav a:hover, .foot2 a:hover{
 	color: goldenrod;
 }
 
@@ -217,14 +217,29 @@ footer{
 	align-items: center;
 }
 
+
+.foot2{
+	height: 70%;
+	width: 30%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.foot2 div{
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.foot2 div img{
+	width: 10%;
+}
+
 .leader{
 	display: inline-flex;
 	width: 100%;
 	justify-content: space-around;
-}
-
-.foot{
-	height: 80%;
-	width: 30vw;
-	background-color: white;
 }
